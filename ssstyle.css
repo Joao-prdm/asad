@@ -1,145 +1,130 @@
-/* Resetando estilos padrão */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-/* Corpo da página */
-body {
-    background-color: #f4f4f4;
-    text-align: center;
+.frame .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
 }
 
-/* Cabeçalho */
-header {
-    background-color: #b3b3b3;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.frame .overlap-group {
+  position: absolute;
+  width: 1920px;
+  height: 142px;
+  top: -450px;
+  left: -1832px;
+  background-image: url(./img/shape-with-text.svg);
+  background-size: 100% 100%;
 }
 
-/* Logo e título */
-.logo {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+.frame .div-2 {
+  position: absolute;
+  width: 203px;
+  height: 69px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/introdu-o.svg);
+  background-size: 100% 100%;
 }
 
-.logo img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+.frame .div-3 {
+  position: absolute;
+  width: 203px;
+  height: 69px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/explica-o.svg);
+  background-size: 100% 100%;
 }
 
-/* Navegação */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+.frame .div-4 {
+  position: absolute;
+  width: 202px;
+  height: 69px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/exerc-cios.svg);
+  background-size: 100% 100%;
 }
 
-nav ul li {
-    display: inline;
+.frame .matemtica-com-neri {
+  position: absolute;
+  width: 409px;
+  height: 133px;
+  top: 0;
+  left: 128px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    background-color: #666;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
+.frame .pi-transparent {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  top: 34px;
+  left: 35px;
+  object-fit: cover;
 }
 
-nav ul li a:hover {
-    background-color: #444;
+.frame .shape-with-text {
+  position: absolute;
+  width: 739px;
+  height: 473px;
+  top: -198px;
+  left: -1631px;
+  object-fit: cover;
 }
 
-/* Container Principal */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+.frame .professor-neri {
+  position: absolute;
+  width: 739px;
+  height: 76px;
+  top: 275px;
+  left: -1631px;
 }
 
-/* Perfil do professor */
-.profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+.frame .o-que-voc-vai {
+  position: absolute;
+  width: 737px;
+  height: 551px;
+  top: -200px;
+  left: -721px;
 }
 
-.profile img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
+.frame .para-dvidas {
+  position: absolute;
+  width: 343px;
+  height: 164px;
+  top: 422px;
+  left: -1285px;
 }
 
-.profile-info {
-    background-color: #667;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    border-radius: 5px;
-    margin-top: 10px;
-    text-align: center;
+.frame .div-5 {
+  position: absolute;
+  width: 629px;
+  height: 165px;
+  top: 871px;
+  left: 890px;
 }
 
-/* Caixa de conteúdo */
-.content {
-    background-color: #8085a0;
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
-    width: 80%;
-    max-width: 600px;
-    border-radius: 10px;
-    text-align: left;
+.frame .instagram {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
-/* Instagram */
-.instagram {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #546;
-    padding: 10px;
-    width: 300px;
-    margin: 20px auto;
-    border-radius: 10px;
-    gap: 10px;
-}
-
-.instagram a {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    gap: 10px;
-}
-
-/* Corrigindo o tamanho da imagem do Instagram */
-.instagram img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-}
-
-.instagram a:hover {
-    color: #ffcc00;
+.frame .mateusneri {
+  position: absolute;
+  width: 465px;
+  height: 164px;
+  top: -1320px;
+  left: -2558px;
 }
