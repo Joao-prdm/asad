@@ -15,31 +15,33 @@ body {
 /* Cabeçalho */
 header {
     background-color: #b3b3b3;
-    padding: 15px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-header h1 {
-    font-size: 24px;
-    color: black;
+/* Logo e título */
+.logo {
     display: flex;
     align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
 
-header h1::before {
-    content: "π ";
-    font-size: 28px;
-    font-weight: bold;
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 /* Navegação */
 nav ul {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 nav ul li {
@@ -50,8 +52,9 @@ nav ul li a {
     text-decoration: none;
     background-color: #666;
     color: white;
-    padding: 8px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
