@@ -1,11 +1,61 @@
-body {
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #f8f9fa;
+/* Estilizando o corpo da página */
+body {
+    background-color: #f4f4f4;
+    text-align: center;
 }
 
-h2 {
-    color: #333;
+/* Cabeçalho */
+header {
+    background-color: #b3b3b3;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+header h1 {
+    font-size: 24px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+header h1::before {
+    content: "π ";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #666;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Perfil do professor */
+.prof
